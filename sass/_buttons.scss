@@ -1,8 +1,9 @@
 /* Code Block Button */
 
 
+
 /* Button Styles */
-a.button {
+a.btn{
   position: relative;
   width: 120px;
   padding: 0;
@@ -13,61 +14,46 @@ a.button {
   color: #FFF;
   border-radius: .3em;
   transition: all 0.2s;
-}
-
-.btnTomato {
-  background: tomato;
-  .btnPush {
-  box-shadow: 0px 5px 0px 0px red;
-  &:hover {
-      box-shadow: 0px 0px 0px 0px red;
-    }
+  text-decoration: none;
+  &:before {
+    margin-right: .5em;
   }
 }
 
-.btnBlueGreen {
-  background: #00AE68;
-  .btnPush {
-  box-shadow: 0px 5px 0px 0px #007144;
+.Alpha {
+  background: $alpha-palette;
   &:hover {
-      box-shadow: 0px 0px 0px 0px #007144;
-    }
+  background-color: darken($alpha-palette, 10%);
   }
 }
 
-.btnLightBlue {
-  background: #5DC8CD;
-  .btnPush {
-  box-shadow: 0px 5px 0px 0px #1E8185;
+.Bravo {
+  background:  $bravo-palette;
    &:hover {
-      box-shadow: 0px 0px 0px 0px #1E8185;
-
-    }
+  background-color: darken($bravo-palette, 10%);
   }
 }
 
-.btnOrange {
-  background: #FFAA40;
-  .btnPush {
-  box-shadow: 0px 5px 0px 0px #A66615;
-  &:hover {
-      box-shadow: 0px 0px 0px 0px #A66615;
-
-    }
+.Charlie {
+  background: $charlie-palette;
+   &:hover {
+  background-color: darken($charlie-palette, 10%);
   }
 }
 
-.btnPurple {
-  background: #A74982;
-  .btnPush {
-  box-shadow: 0px 5px 0px 0px #6D184B;
-  &:hover {
-      box-shadow: 0px 0px 0px 0px #6D184B;
-
-    }
+.Delta {
+  background: $delta-palette;
+   &:hover {
+  background-color: darken($delta-palette, 10%);
   }
 }
 
+.Echo {
+  background: $echo-palette;
+   &:hover {
+  background-color: darken($echo-palette, 10%);
+  }
+}
 
 
 
