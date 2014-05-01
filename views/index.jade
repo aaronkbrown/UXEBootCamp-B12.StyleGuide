@@ -2,7 +2,8 @@ extends layout
 
 block content
   body
-    nav(id="scroll")
+    nav(id="nav-primary")
+      a(href="javascript:void(0)" class="oi off-canvas-nav" data-glyph="menu" title="menu" aria-hidden="true")
       h2 Style Guide
       a(href="javascript:void(0)" onclick="$('#guidelines').animatescroll();") Guidelines
       a(href="javascript:void(0)" onclick="$('#colors').animatescroll();") Color
